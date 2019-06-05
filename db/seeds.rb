@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first))
 
-#
+
 # Language.create(lang_name: 'Arabic', lang_code:	'ar')
 # Language.create(lang_name: 'Bulgarian', lang_code:	'bg')
 # Language.create(lang_name: 'Catalan', lang_code:	'ca')
@@ -45,7 +45,7 @@
 # Language.create(lang_name: 'Ukrainian', lang_code:	'uk')
 # Language.create(lang_name: 'Vietnamese', lang_code:	'vi')
 
-#
-# User.create(username: 'PARivers', password: '123', message: 'no')
-#
-# Phrase.create(user_id: 2, language_id: 1, user_message: 'Hello', new_message: 'Hola')
+
+# User.create(username: 'CoolGuy', password: '123', bio: 'no')
+
+# Phrase.create(user_id: 1, language_id: 1, user_message: 'Hello', new_message: 'Hola')

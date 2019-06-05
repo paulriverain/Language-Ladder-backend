@@ -1,5 +1,5 @@
 class UserSerializer < ActiveModel::Serializer
-  attributes :id, :username, :message, :password
+  attributes :id, :username, :password, :bio
 
 
   has_many :phrases
