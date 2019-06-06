@@ -45,3 +45,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "google-cloud-storage", "~> 1.18"
+
+gem "google-cloud-translate", "~> 1.3"

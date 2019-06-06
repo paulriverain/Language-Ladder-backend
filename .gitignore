@@ -7,6 +7,11 @@
 # Ignore bundler config.
 /.bundle
 
+#Ignore translate api key
+/config/local_env.yml
+/config/google_cloud.json
+
+
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
