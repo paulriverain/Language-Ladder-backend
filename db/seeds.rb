@@ -44,8 +44,8 @@
 # Language.create(lang_name: 'Turkish', lang_code:	'tr')
 # Language.create(lang_name: 'Ukrainian', lang_code:	'uk')
 # Language.create(lang_name: 'Vietnamese', lang_code:	'vi')
-
-
+#
+#
 # User.create(username: 'CoolGuy', password: '123', bio: 'no')
-
+#
 # Phrase.create(user_id: 1, language_id: 1, user_message: 'Hello', new_message: 'Hola')
