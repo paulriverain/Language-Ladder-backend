@@ -12,6 +12,12 @@ class Api::V1::PhrasesController < ApplicationController
     render json: @phrase
   end
 
+  def destroy
+    # byebug
+    @phrase = Phrase.find(params[:id])
+    @phrase.destroy
+    render json: {message: "Successfully deleted this Phrase!"}
+  end
 
 
 
@@ -32,7 +38,7 @@ class Api::V1::PhrasesController < ApplicationController
 
           translation = translate.translate text, to: target
     # byebug
-    render json: {message: translation}
+          render json: {message: translation}
   end
 
 
