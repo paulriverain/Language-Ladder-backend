@@ -10,6 +10,8 @@ Rails.application.routes.draw do
 
       get '/current_user', to: 'auth#show'
 
+      # patch '/:current_user/update', to: 'users#update'
+
     end
   end
 

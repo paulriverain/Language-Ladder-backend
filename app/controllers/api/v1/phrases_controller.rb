@@ -9,7 +9,7 @@ class Api::V1::PhrasesController < ApplicationController
   def create
     # byebug
     @phrase = Phrase.create(user_id: params[:user_id], language_id: params[:language_id], user_message: params[:user_message], new_message: params[:new_message])
-    render json: @phrase
+    render json:  @phrase
   end
 
   def destroy
@@ -35,8 +35,9 @@ class Api::V1::PhrasesController < ApplicationController
           target = params[:currentLang]
 
     # Translates some text into selected language
-
+    # byebug
           translation = translate.translate text, to: target
+          # translation = "bread"
     # byebug
           render json: {message: translation}
   end
